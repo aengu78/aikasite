@@ -84,11 +84,14 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #button-div {
     padding: 1vh;
     margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
 }
 
 button {
@@ -102,6 +105,9 @@ button {
     min-width: 40px;
     min-height: 40px;
     transition: border .25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
@@ -118,11 +124,13 @@ button:hover > svg {
     font-family: 'Gothic A1', Arial, Helvetica, sans-serif;
     margin-top: 0.5vh;
     font-size: 1.5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 svg {
-    height: 2.5vh;
-    width: 2.5vh;
+    height: 2.75vh;
+    width: 2.75vh;
     fill: white;
     transition: fill .25s;
 }
